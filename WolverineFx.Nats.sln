@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "statics", "statics", "{7197
 		package.json = package.json
 		.releaserc.yaml = .releaserc.yaml
 		.github\workflows\main.yml = .github\workflows\main.yml
+		nuget.config = nuget.config
 	EndProjectSection
 EndProject
 Global
