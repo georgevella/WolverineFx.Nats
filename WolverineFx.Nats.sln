@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{211A6069-D6F2-4C3A-B636-AC87D12B8CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WolverineFx.Nats", "src\WolverineFx.Nats\WolverineFx.Nats.csproj", "{D64F2AA4-4F8A-4447-A258-83A97DC18059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "statics", "statics", "{71974CAA-802E-4819-AB3E-D53FA2C085E4}"
+	ProjectSection(SolutionItems) = preProject
+		package.json = package.json
+		.releaserc.yaml = .releaserc.yaml
+		.github\workflows\main.yml = .github\workflows\main.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D64F2AA4-4F8A-4447-A258-83A97DC18059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64F2AA4-4F8A-4447-A258-83A97DC18059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64F2AA4-4F8A-4447-A258-83A97DC18059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64F2AA4-4F8A-4447-A258-83A97DC18059}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D64F2AA4-4F8A-4447-A258-83A97DC18059} = {211A6069-D6F2-4C3A-B636-AC87D12B8CD2}
+	EndGlobalSection
+EndGlobal
