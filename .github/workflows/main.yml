@@ -9,8 +9,7 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    permissions: write-all
     steps:
     - name: Debug Action Contexts
       uses: henrygriffiths/debug_action@v1
